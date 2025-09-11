@@ -3,158 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Presentes - Noivado</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            margin: 0;
-            padding: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        
-        .lista-container {
-            background-color: white;
-            border: 2px solid #333;
-            padding: 30px;
-            max-width: 400px;
-            width: 100%;
-        }
-        
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 24px;
-            color: #333;
-            border-bottom: 1px solid #333;
-            padding-bottom: 15px;
-        }
-        
-        .item {
-            padding: 8px 0;
-            border-bottom: 1px solid #ddd;
-            font-size: 16px;
-            color: #333;
-        }
-        
-        .item:last-child {
-            border-bottom: none;
-        }
-    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <title>Noivado Igor e Francielle</title>
 </head>
-<body>
-    <h1>Noivado Igor e Francielle - 28/09/2025</h1>
+<body class="pt-10 px-5">
+    <h1 class="text-2xl text-center text-red-600 font-bold mb-8">Noivado Igor e Francielle - 28/09/2025</h1>
 
-    <div class="lista-container">
-        <h2>Lista de Presentes</h2>
+    <main class="flex flex-col gap-8 mb-8">
+        <div class="bg-red-200 rounded-xl flex-1 py-5">
+            <h2 class="text-xl text-red-600 font-bold text-center pb-4">Lista de Presentes</h2>
         
-        <ul>
-            <li>Toalha de rosto</li>
-            <li>Toalha de banho</li>
-            <li>Lençol de casal</li>
-            <li>Puxa saco</li>
-            <li>Peseira de cama</li>
-            <li>Tábua de corte</li>
-            <li>Tabuleiro</li>
-            <li>Kit de facas</li>
-            <li>Peso de porta</li>
-            <li>Escorredor de macarrão</li>
-            <li>Açucareiro</li>
-            <li>Espremedor de batata</li>
-            <li>Leiteira de plástico</li>
-            <li>Porta papel toalha</li>
-            <li>Toalha de mesa</li>
-            <li>Saleiro</li>
-            <li>Jogo de copos</li>
-            <li>Relógio de parede</li>
-            <li>Porta chaves</li>
-            <li>Tapete de entrada preto</li>
-            <li>Escumadeira</li>
-            <li>Concha</li>
-            <li>Porta condimentos</li>
-            <li>Pote guardar macarrão</li>
-            <li>Tigela</li>
-            <li>Bandeja</li>
-            <li>Jarra de suco pequena</li>
-            <li>Xícara</li>
-            <li>Peneira</li>
-            <li>Saca-rolha</li>
-            <li>Taça</li>
-            <li>Tesoura de cozinha</li>
-            <li>Forminha de gelo</li>
-            <li>Cocha de cama</li>
-        </ul>
-    </div>
+            <ul class="grid grid-cols-1 text-gray-700 font-bold mx-5 text-center tracking-wider leading-7">
+                <li class="bg-green-200 rounded mb-1">Toalha de rosto</li>
+                <li>Toalha de banho</li>
+                <li class="bg-green-200 rounded mb-1">Lençol de casal</li>
+                <li>Puxa saco</li>
+                <li class="bg-green-200 rounded mb-1">Pano de prato</li>
+                <li>Peseira de cama</li>
+                <li>Tábua de corte</li>
+                <li>Tabuleiro</li>
+                <li>Kit de facas</li>
+                <li>Peso de porta</li>
+                <li>Escorredor de macarrão</li>
+                <li>Açucareiro</li>
+                <li>Espremedor de batata</li>
+                <li>Leiteira de plástico</li>
+                <li>Porta papel toalha</li>
+                <li>Toalha de mesa</li>
+                <li>Saleiro</li>
+                <li class="bg-green-200 rounded mb-1">Jogo de copos</li>
+                <li>Relógio de parede</li>
+                <li class="bg-green-200 rounded mb-1">Porta chaves</li>
+                <li>Tapete de entrada preto</li>
+                <li>Escumadeira</li>
+                <li>Concha</li>
+                <li>Porta condimentos</li>
+                <li>Pote guardar macarrão</li>
+                <li>Tigela</li>
+                <li>Bandeja</li>
+                <li>Jarra de suco pequena</li>
+                <li>Xícara</li>
+                <li>Peneira</li>
+                <li>Saca-rolha</li>
+                <li>Taça</li>
+                <li>Tesoura de cozinha</li>
+                <li>Forminha de gelo</li>
+                <li>Cocha de cama</li>
+            </ul>
 
-    <div class="lista-container">
-        <h2>Lista de Confirmados</h2>
-        
-        <ul>
-            <li>Ademir</li>
-            <li>Adriana</li>
-            <li>Alan</li>
-            <li>Anderson</li>
-            <li>Antonio</li>
-            <li>Antônio Roberto</li>
-            <li>Aparecida</li>
-            <li>Brenda</li>
-            <li>Bryan</li>
-            <li>Cadu</li>
-            <li>Camila</li>
-            <li>Carlos</li>
-            <li>Carol</li>
-            <li>Cidinha</li>
-            <li>Cláudio</li>
-            <li>Dulce</li>
-            <li>Edneia</li>
-            <li>Elaine</li>
-            <li>Eliane</li>
-            <li>Fabiano</li>
-            <li>Francielle (noiva)</li>
-            <li>Gabriel</li>
-            <li>Igor (noivo)</li>
-            <li>Ícaro</li>
-            <li>Isabelle</li>
-            <li>João</li>
-            <li>Joice</li>
-            <li>Joelma</li>
-            <li>José Algusto</li>
-            <li>Katia</li>
-            <li>Kauã</li>
-            <li>Karina</li>
-            <li>Lidiane</li>
-            <li>Lúcia</li>
-            <li>Marcinho</li>
-            <li>Marcio</li>
-            <li>Milton</li>
-            <li>Moiseis</li>
-            <li>Nazi</li>
-            <li>Natália</li>
-            <li>Ney</li>
-            <li>Paula</li>
-            <li>Paula Maia</li>
-            <li>Paulo</li>
-            <li>Pedro</li>
-            <li>Raquel</li>
-            <li>Ramon</li>
-            <li>Regina</li>
-            <li>Reginaldo</li>
-            <li>Rejania</li>
-            <li>Rosângela</li>
-            <li>Sônia</li>
-            <li>Shirley</li>
-            <li>Solange</li>
-            <li>Vanessa</li>
-            <li>Vanderli</li>
-            <li>Vilaine</li>
-            <li>Viviane</li>
-            <li>Vitório</li>
-            <li>Viriate</li>
-            <li>Wesley</li>
-        </ul>
-    </div>
+            <ul class="grid grid-cols-2 text-gray-700 font-bold mx-5 mt-4 text-center tracking-wider leading-7">
+                <li class="bg-green-200 rounded mb-1">Confirmados</li>
+                <li>Disponíveis</li>
+            </ul>
+        </div>
+
+        <div class="bg-red-200 rounded-xl flex-1 py-5">
+            <h2 class="text-xl text-red-600 font-bold text-center pb-4">Lista de Confirmados</h2>
+            
+            <ul class="grid grid-cols-1 text-gray-700 font-bold mx-5 text-center tracking-wider leading-7">
+                <li>Ademir</li>
+                <li>Adriana</li>
+                <li>Alan</li>
+                <li>Anderson</li>
+                <li>Antonio</li>
+                <li>Antônio Roberto</li>
+                <li>Aparecida</li>
+                <li>Brenda</li>
+                <li>Bryan</li>
+                <li>Cadu</li>
+                <li>Camila</li>
+                <li>Carlos</li>
+                <li>Carol</li>
+                <li>Cidinha</li>
+                <li>Cláudio</li>
+                <li>Dulce</li>
+                <li>Edneia</li>
+                <li>Elaine</li>
+                <li>Eliane</li>
+                <li>Fabiano</li>
+                <li>Francielle (noiva)</li>
+                <li>Gabriel</li>
+                <li>Igor (noivo)</li>
+                <li>Ícaro</li>
+                <li>Isabelle</li>
+                <li>João</li>
+                <li>Joice</li>
+                <li>Joelma</li>
+                <li>José Algusto</li>
+                <li>Katia</li>
+                <li>Kauã</li>
+                <li>Karina</li>
+                <li>Lidiane</li>
+                <li>Lúcia</li>
+                <li>Marcinho</li>
+                <li>Marcio</li>
+                <li>Milton</li>
+                <li>Moiseis</li>
+                <li>Nazi</li>
+                <li>Natália</li>
+                <li>Ney</li>
+                <li>Paula</li>
+                <li>Paula Maia</li>
+                <li>Paulo</li>
+                <li>Pedro</li>
+                <li>Raquel</li>
+                <li>Ramon</li>
+                <li>Regina</li>
+                <li>Reginaldo</li>
+                <li>Rejania</li>
+                <li>Rosângela</li>
+                <li>Sônia</li>
+                <li>Shirley</li>
+                <li>Solange</li>
+                <li>Vanessa</li>
+                <li>Vanderli</li>
+                <li>Vilaine</li>
+                <li>Viviane</li>
+                <li>Vitório</li>
+                <li>Viriate</li>
+                <li>Wesley</li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
